@@ -153,4 +153,7 @@ public class Map {
     public void insertTorch(int x, int y) {
         b[x][y] = new TorchBlock();
     }
+    public void insertSand(int x,int y) {
+        b[x][y] = new SandBlock();
+    }
 }

@@ -1,6 +1,7 @@
 package UI;
 
 import Blocks.AirBlock;
+import Blocks.Block;
 import Blocks.Furnace;
 import Blocks.SmeltableBlock;
 import Exceptions.BlockErrorException;
@@ -13,7 +14,7 @@ public class MainView {
     private Inventory inv = new Inventory();
 
     public void display() {
-       // map.generateRandomMap();
+        map.generateRandomMap();
         map.display_on_out();
         System.out.println();
         furnace.display_on_out();
@@ -52,6 +53,10 @@ public class MainView {
         } else {
             inv.order = new BlockComparator();
         }
+    }
+
+    public Block getElement(int i,int j) {
+        return map.getBlock(i,j);
     }
 
 

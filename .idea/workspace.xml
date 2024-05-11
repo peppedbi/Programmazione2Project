@@ -5,43 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69a9cd93-f900-4e70-a28f-3918751b7a28" name="Changes" comment="dddd">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blocks/AbstractBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blocks/AbstractSolidBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blocks/Block.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blocks/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blocks/Furnace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blocks/GlassBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blocks/InventoryBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blocks/IronSwordBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blocks/IronSwordInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blocks/NullBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blocks/RawIronBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blocks/SandBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blocks/SmeltableBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blocks/TorchBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blocks/WaterBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/BlockErrorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/GUI/BlockPane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/Inventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/MainView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/Ordinamento/AlphabeticalBlockComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/Ordinamento/BlockComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UI/coords/Coordinate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/GUI/ButtonListPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/GUI/FurnacePane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/GUI/InventoryPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/GUI/MainGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UI/GUI/MapPane.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmazione 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Programmazione 2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blocks/AirBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/Map.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/GUI/BlockPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/GUI/BlockPane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/MainView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UI/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="module-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,23 +49,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Finestre.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/conte/Downloads/openjfx-22.0.1-javadoc.zip",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.25632185",
-    "settings.editor.selected.configurable": "preferences.pathVariables"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Finestre.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/conte/Downloads/openjfx-22.0.1-javadoc.zip&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.25632185&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\conte\OneDrive\Desktop\Programmazione 2\src" />
@@ -131,10 +104,26 @@
       <option name="presentableId" value="Default" />
       <updated>1710323674029</updated>
     </task>
+    <task id="LOCAL-00001" summary="dddd">
+      <option name="closed" value="true" />
+      <created>1715341398580</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715341398581</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dddd" />
     <option name="LAST_COMMIT_MESSAGE" value="dddd" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

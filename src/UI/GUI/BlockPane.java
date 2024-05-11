@@ -20,11 +20,8 @@ public class BlockPane extends StackPane {
     private static final Color FONT_BORDER = Color.BLACK;
 
     public BlockPane(Block block) {
-        changeBlock(block);
+//        changeBlock(block);
         initialise(block);
-
-
-
     }
     private void initialise(Block block) {
         Rectangle r = new Rectangle(DIM_SQUARE,DIM_SQUARE);
